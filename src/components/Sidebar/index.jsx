@@ -1,26 +1,24 @@
 /* eslint-disable react/prop-types */
 import { Titulo } from "../Titulo"
-import styled from "styled-components"
+import { DivLogo, Tema, Img } from "./Styles" 
+import { Paragrafo } from "../Paragrfo"
+import Logo from "../image/hcj.png"
+import Logo1 from "../image/jquery.png"
+import Logo2 from "../image/react.png"
 
-
-const Tema = styled.button`
-background-color: ${(props) => props.theme.corPrincipal} ;
-color: ${(props) => props.theme.corDeFundo};
-width: 80px;
-height: 25px;
-margin-top: 40px;
-border: none;
-border-radius: 8%;
-
-`
 
 const Sidebar = props => (
     <>
     <aside>
-         <img src="https://github.com/thiagoJCmds.png" alt="" />
+         <Img src="https://github.com/thiagoJCmds.png" alt="html" />
     </aside>
     <Titulo>Thiago</Titulo>
+    <Paragrafo bold="bold">Desenvolvedor Front-End</Paragrafo>
     <Tema onClick={props.troca}>Tema</Tema>
+    <DivLogo src={Logo}/>
+    <DivLogo src={Logo2}/>
+    <DivLogo tamanho='60px' src={Logo1}/>
+            
     </>
 )
 

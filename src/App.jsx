@@ -1,24 +1,14 @@
 import {ThemeProvider} from 'styled-components'
 
-import GlobalStyle, { Container, Container2 } from './components/GlobalStyle.jsx'
+import GlobalStyle, { Container} from './GlobalStyle.jsx'
+import { Barra, Container2 } from './components/Sidebar/Styles.jsx';
 import Projetos from './components/Projetos/index.jsx';
 import Sidebar from "./components/Sidebar/index.jsx";
 import Sobre from './components/Sobre/index.jsx';
-import styled from 'styled-components';
 import temaLigh from './themes/ligth.js';
 import temaDark from './themes/dark.js';
 import { useState } from 'react';
 
-const Barra = styled.div`
-  position: sticky;
-    top: 80px;
-    left: 0;
-  @media (max-width: 768px) {
-    position: static;
-    
-  }  
-
-`
 
 
 function App() {
@@ -37,7 +27,7 @@ return (
         <Sidebar troca = {trocaTema}/>
       </Container2>
       </Barra>
-      <main>
+          <main>
         <Sobre/>
         <Projetos/>
       </main>

@@ -3,6 +3,7 @@ const temaDark = {
     corSecundaria: "#333",
     corDeFundo: "#111",
     corDeFundoBotao: "#fff",
+    corDeFundoBotaoGit:"#fff",
     corDaBorda: '#c1c1c1'
     
 }

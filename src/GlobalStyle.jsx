@@ -28,26 +28,5 @@ export const Container = styled.div`
     max-width: 80%;
     display: block;
   }
-  body{
 
-  }
   `
-export const Container2 = styled.div`
-    display: block;
-    text-align: center;
-  
-    
-    
-    img{
-        max-width: 100%;
-        border-radius: 50%;
-        border: solid #000 2px;
-    }       
-    @media (max-width: 768px) {
-      max-width: 80%;
-      display: block;
-      img{
-        max-width:300px;
-      }
-    }
-    `
