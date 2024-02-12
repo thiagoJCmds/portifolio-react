@@ -32,7 +32,7 @@ const Projetos = () => (
    <li>
       <StyledProject>
       <TitleSection>Projetos Loja de Carro</TitleSection>
-      <Paragrafo tipo="#444">Projeto ulitzando React</Paragrafo>
+      <Paragrafo tipo="#444">Projeto ulitzando JQuery</Paragrafo>
       <Botao href="https://carrocel-imagens.vercel.app/" target="_blank">Visualizar</Botao>
       <BotaoGit href="https://github.com/thiagoJCmds/carrocel_imagens" target="_blank">Codigo no Github</BotaoGit>
       </StyledProject>
