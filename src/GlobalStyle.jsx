@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
 body{
     background-color: ${(props) => props.theme.corDeFundo };
     margin-top: 80px;
+    margin-bottom: 20px;
 }
 `
 export default GlobalStyle

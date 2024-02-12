@@ -37,39 +37,7 @@ const Projetos = () => (
       <BotaoGit href="https://github.com/thiagoJCmds/carrocel_imagens" target="_blank">Codigo no Github</BotaoGit>
       </StyledProject>
    </li>  
-   <li>
-      <StyledProject>
-      <TitleSection>Projeto Em Breve...</TitleSection>
-      <Paragrafo tipo="#444">Lista de projetos ulitzando React</Paragrafo>
-      <Botao>Visualizar</Botao>
-      <BotaoGit href="https://github.com/thiagoJCmds/site_RBS" target="_blank">Codigo no Github</BotaoGit>
-      </StyledProject>
-   </li>  
-   <li>
-      <StyledProject>
-      <TitleSection>Projeto Em Breve...</TitleSection>
-      <Paragrafo tipo="#444">Lista de projetos ulitzando React</Paragrafo>
-      <Botao>Visualizar</Botao>
-      <BotaoGit  href="" target="_blank">Codigo no Github</BotaoGit>
-      </StyledProject>
-   </li>  
-   <li>
-      <StyledProject>
-      <TitleSection>Projetos Em Breve...</TitleSection>
-      <Paragrafo tipo="#444">Lista de projetos ulitzando React</Paragrafo>
-      <Botao>Visualizar</Botao>
-      <BotaoGit  href="" target="_blank">Codigo no Github</BotaoGit>
-      </StyledProject>
-   </li>  
-   <li>
-      <StyledProject>
-      <TitleSection>Projetos Em Breve...</TitleSection>
-      <Paragrafo tipo="#444">Lista de projetos ulitzando React</Paragrafo>
-      <Botao>Visualizar</Botao>
-      <BotaoGit href="" target="_blank">Codigo no Github</BotaoGit>
-      </StyledProject>
-   </li>  
-   </Lista> 
+</Lista> 
    </>
 )
 
