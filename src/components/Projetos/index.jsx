@@ -31,15 +31,15 @@ const Projetos = () => (
    </li>  
    <li>
       <StyledProject>
-      <TitleSection>Projetos</TitleSection>
+      <TitleSection>Projetos Loja de Carro</TitleSection>
       <Paragrafo tipo="#444">Projeto ulitzando React</Paragrafo>
-      <Botao>Visualizar</Botao>
+      <Botao href="https://carrocel-imagens.vercel.app/" target="_blank">Visualizar</Botao>
       <BotaoGit href="https://github.com/thiagoJCmds/carrocel_imagens" target="_blank">Codigo no Github</BotaoGit>
       </StyledProject>
    </li>  
    <li>
       <StyledProject>
-      <TitleSection>Projeto</TitleSection>
+      <TitleSection>Projeto Em Breve...</TitleSection>
       <Paragrafo tipo="#444">Lista de projetos ulitzando React</Paragrafo>
       <Botao>Visualizar</Botao>
       <BotaoGit href="https://github.com/thiagoJCmds/site_RBS" target="_blank">Codigo no Github</BotaoGit>
@@ -47,7 +47,7 @@ const Projetos = () => (
    </li>  
    <li>
       <StyledProject>
-      <TitleSection>Projeto</TitleSection>
+      <TitleSection>Projeto Em Breve...</TitleSection>
       <Paragrafo tipo="#444">Lista de projetos ulitzando React</Paragrafo>
       <Botao>Visualizar</Botao>
       <BotaoGit  href="" target="_blank">Codigo no Github</BotaoGit>
@@ -55,7 +55,7 @@ const Projetos = () => (
    </li>  
    <li>
       <StyledProject>
-      <TitleSection>Projetos</TitleSection>
+      <TitleSection>Projetos Em Breve...</TitleSection>
       <Paragrafo tipo="#444">Lista de projetos ulitzando React</Paragrafo>
       <Botao>Visualizar</Botao>
       <BotaoGit  href="" target="_blank">Codigo no Github</BotaoGit>
@@ -63,7 +63,7 @@ const Projetos = () => (
    </li>  
    <li>
       <StyledProject>
-      <TitleSection>Projetos</TitleSection>
+      <TitleSection>Projetos Em Breve...</TitleSection>
       <Paragrafo tipo="#444">Lista de projetos ulitzando React</Paragrafo>
       <Botao>Visualizar</Botao>
       <BotaoGit href="" target="_blank">Codigo no Github</BotaoGit>
