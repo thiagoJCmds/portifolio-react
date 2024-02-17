@@ -8,6 +8,11 @@ color: ${(props) => props.theme.corPrincipal};
     margin-top: 30px;
     font-size: 18px;
 }
+
+@media (max-width:928px) and (orientation:landscape){
+    font-size: 17px;
+    margin-top: 8px;
+}
 ` 
 
 
